@@ -1,12 +1,55 @@
-# Portifólio - Dhara Castilho
+# Frontend Challenge - Porfolio Project
 
-![Capa GitHub](https://github.com/dharitcha/portfolio-dev/assets/157736779/936d5874-6d82-440c-8fee-7bb60c1d76e5)
+## Overview
+This project was developed as part of the Frontend Specialization Challenge within the Alura and Oracle Next Education (ONE) program. The main objective was to deepen CSS knowledge, particularly focusing on **Flexbox** and **responsive layouts**, while integrating JavaScript to enhance interactivity.
 
+The project was built from scratch using an **HTML structure provided**, along with a Figma design suggestion. However, I heavily customized the design, featuring a unique color palette and fully edited elements to achieve a consistent and harmonious appearance.
 
-Esse projeto foi o primeiro Challenge dentro da especialização em front-end do programa Alura em parceria com a Oracle Next Education - ONE. O objetivo do projeto foi aprofundar no CSS, em especial no uso de Flex-box e layouts responsivos, integrando o site com JavaScript. 
+## Features
+- **Responsive Layout:** Designed with Flexbox for adaptability across different screen sizes.
+- **Form Validation:** Real-time validation for required fields (name, email, subject, message).
+- **Email Validation:** Uses regex to ensure valid email addresses.
+- **Character Limits:** Prevents overly long inputs for better usability.
+- **Dynamic Button State:** The submit button is disabled until all fields are filled.
+- **Form Submission Handling:** Displays alerts for success or errors.
 
-O projeto foi criado do zero, a partir do código em HTML disponibilizado e uma sugestão de design do Figma. Pessoalmente, optei por mudar bastante do design sugerido, para deixar o site mais do meu jeito, apesar de manter a estrutura parecida com a proposta. Escolhi uma paleta de cores única e editei todos os elementos do design, para manter a aparência consistente e harmônica.
+## Technologies Used
+- **JavaScript**: Form validation, event handling, and interactivity.
+- **HTML**: Structuring the contact form and layout.
+- **CSS**: Styling and responsive design with Flexbox.
 
-Feito com uso de JavaScript, HTML e CSS, com o programa VSCode.
+## How It Works
+### Form Validation
+- Name and Subject: Cannot be empty, limited to 50 characters.
+- Email: Must match a valid email format.
+- Message: Cannot be empty, limited to 300 characters.
+- If any field is invalid, an error message is displayed below the respective input.
 
-Você pode acessar o site online por aqui: https://dharacastilho.com/
+### Dynamic Button State
+- The submit button remains disabled until all required fields are correctly filled.
+- Input fields trigger validation on user interaction.
+
+### Form Submission
+- If all validations pass, the form displays a success alert (`Mensagem enviada!`) and reloads the page.
+- If validation fails, an error alert is shown (`Ocorreu um erro, confira os seus dados`).
+
+## Installation and Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/frontend-challenge.git
+   ```
+2. Open `index.html` in a web browser.
+3. Fill out the form and test the validation system.
+
+## Future Improvements
+- Implement server-side form submission with backend integration.
+- Add animations for better user experience.
+- Improve accessibility with ARIA attributes.
+- Expand validation with additional security measures.
+
+## Live Demo
+You can access the live version here: [dharacastilho.com](https://dharacastilho.com/)
+
+## License
+This project is open-source and available under the MIT License.
+
