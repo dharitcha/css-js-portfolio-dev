@@ -36,7 +36,7 @@ The project was built from scratch using an **HTML structure provided**, along w
 ## Installation and Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/dharitcha/frontend-challenge.git
+   git clone https://github.com/dharitcha/css-js-portfolio-dev.git
    ```
 2. Open `index.html` in a web browser.
 3. Fill out the form and test the validation system.
